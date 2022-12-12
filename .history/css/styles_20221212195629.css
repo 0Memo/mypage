@@ -1,0 +1,92 @@
+:root {
+    --color: #367234;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background: var(--color);
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+section {
+    padding: 45px 0 80px 0;
+}
+
+/* PROJECTS */
+
+#projects .item a {
+    display: block;
+    margin-top: 3%;
+    color: rgb(88, 77, 77);
+    font-size: 24px;
+    text-align: center;
+    opacity: 0.4;
+    transition: 2s;
+    text-shadow: black .05em .05em 0,
+    var(--color) .08em .08em 0;
+}
+
+#projects .item a:hover {
+    text-decoration: none;
+    opacity: 1;
+    color: rgb(98, 89, 89);
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+    color: var(--color);
+}
+
+.carousel-indicators {
+    bottom: 0;
+}
+
+.carousel-indicators li {
+    border: 2px solid #fff;
+}
+
+.carousel-indicators li .active {
+    background-color: #fff;
+}
+
+#myCarousel .item {
+    padding: 40px 30px;
+}
+
+#myCarousel .item h3 {
+    color: #fff;
+    font-style: italic;
+}
+
+/* FOOTER */
+
+footer {
+    background: #333;
+    padding: 20px 0 40px;
+}
+
+footer a svg {
+    color: var(--color);
+    margin: 10px;
+    transition: .4s;
+}
+
+footer a svg:hover {
+    color: chocolate;
+}
+
+footer h5 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 28px;
+    font-family: 'Caveat', sans-serif;
+}
